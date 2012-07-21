@@ -902,10 +902,10 @@ ul.orbit-bullets li.active.has-thumb { background-position: 0 0; border-top: 2px
 /* ----------------------------------------- Shared Styles
 ----------------------------------------- */
 #belly {
-	min-height: 300px;
+	min-height: 200px;
 	background: url(../images/loader.gif) center no-repeat;
 }
-#belly > .columns img {
+#belly > #left img {
 	float: left;
 	margin-right: 15px;
 }
