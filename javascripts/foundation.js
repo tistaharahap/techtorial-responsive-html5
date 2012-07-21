@@ -32,7 +32,7 @@ jQuery.foundation=jQuery.foundation||{},jQuery.foundation.customForms=jQuery.fou
 
 function handle_ds_json(data) {
 	$('#belly').css({ background: 'none' });
-	var bellyContent = $('#belly > .columns');
+	var bellyContent = $('#belly > #left');
 	
 	var posts = data.posts;
 	for(p in posts) {
